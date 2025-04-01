@@ -1,0 +1,181 @@
+/* Reset styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Navigation Bar */
+nav {
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Categories Section */
+.categories {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-left: 650px;
+}
+
+/* Remove bullet points */
+#categoriesList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Category Buttons */
+.category-btn {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 8px 0;
+  width: 200px;
+  text-align: center;
+}
+
+.category-btn:hover {
+  background-color: #4cae4c;
+}
+
+/* Category Description */
+#detailedText {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Center the form */
+.form-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Form Titles */
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+/* Link to go back */
+.back-link {
+  display: block;
+  margin-top: 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Profile Container */
+.profile-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Profile Info */
+.profile-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-container p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #d9534f;
+  padding: 10px 20px;
+}
+
+.logout-btn:hover {
+  background-color: #c9302c;
+}
