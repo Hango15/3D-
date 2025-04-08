@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Մուտք - 3D Կրթություն</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>3D Մոդելավորման Կրթություն</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Գլխավոր</a></li>
+                    <li><a href="profile.html">Պրոֆիլ</a></li>
+                    <li><a href="login.html" class="active">Մուտք</a></li>
+                    <li><a href="signup.html">Գրանցում</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form id="loginForm" class="auth-form">
+            <h2>Մուտք գործել</h2>
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Մուտքանուն" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Գաղտնաբառ" required>
+            </div>
+            <button type="submit">Մուտք</button>
+            <p class="form-footer">
+                Չունե՞ք հաշիվ: <a href="signup.html">Գրանցվել</a>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 3D Կրթություն. Բոլոր իրավունքները պաշտպանված են:</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

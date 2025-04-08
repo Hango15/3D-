@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Կրթություն</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>3D Մոդելավորման Կրթություն</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Գլխավոր</a></li>
+                    <li><a href="profile.html">Պրոֆիլ</a></li>
+                    <li><a href="login.html">Մուտք</a></li>
+                    <li><a href="signup.html">Գրանցում</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Սկսեք Ձեր 3D Մոդելավորման Ճանապարհորդությունը</h2>
+            <p>Բացահայտեք 3D մոդելավորման աշխարհը մեր փորձառու մասնագետների հետ</p>
+        </section>
+
+        <section class="categories">
+            <h2>Ընտրեք կատեգորիա</h2>
+            <div class="categories-grid" id="categoriesList">
+                <button class="category-btn" data-category="modeling">
+                    <div class="category-icon">🎨</div>
+                    <span>3D Մոդելավորում</span>
+                </button>
+                <button class="category-btn" data-category="design">
+                    <div class="category-icon">✏️</div>
+                    <span>Դիզայն</span>
+                </button>
+                <button class="category-btn" data-category="news">
+                    <div class="category-icon">📰</div>
+                    <span>Նորություններ</span>
+                </button>
+                <button class="category-btn" data-category="tutorials">
+                    <div class="category-icon">📚</div>
+                    <span>Դասընթացներ</span>
+                </button>
+            </div>
+            <div class="category-details">
+                <p id="detailedText">Ընտրեք կատեգորիա՝ մանրամասն տեղեկությունների համար:</p>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Առաջարկվող Դասընթացներ</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1200&q=80" alt="3D Modeling Course">
+                    <h3>3D Մոդելավորման Հիմունքներ</h3>
+                    <p>Սկսնակների համար նախատեսված դասընթաց</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?auto=format&fit=crop&w=1200&q=80" alt="Design Course">
+                    <h3>Դիզայնի Սկզբունքներ</h3>
+                    <p>Խորացված դասընթաց դիզայնի մասին</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 3D Կրթություն. Բոլոր իրավունքները պաշտպանված են:</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

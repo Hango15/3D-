@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Պրոֆիլ - 3D Կրթություն</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>3D Մոդելավորման Կրթություն</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Գլխավոր</a></li>
+                    <li><a href="profile.html" class="active">Պրոֆիլ</a></li>
+                    <li><a href="login.html">Մուտք</a></li>
+                    <li><a href="signup.html">Գրանցում</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="profile-container">
+            <div class="profile-header">
+                <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&q=80" 
+                     alt="Profile" 
+                     class="profile-avatar">
+                <h2>Իմ Պրոֆիլը</h2>
+            </div>
+            
+            <div class="profile-info">
+                <div class="info-card">
+                    <h3>Ընտրված Կատեգորիա</h3>
+                    <p id="userCategoryText">Ընտրված կատեգորիան: Չկա</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Մանրամասներ</h3>
+                    <p id="categoryDetailsText">Մանրամասներ: Չկան</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Առաջընթաց</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                    <p>Ավարտված է 60%</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 3D Կրթություն. Բոլոր իրավունքները պաշտպանված են:</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
